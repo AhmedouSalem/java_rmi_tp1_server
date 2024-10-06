@@ -58,7 +58,7 @@ public class AnimalImplement extends UnicastRemoteObject implements Animal {
 	public String printAnimalInfos() throws RemoteException {
 		// TODO Auto-generated method stub
 		return "\nnom : " + this.getNom() + "\nnomMaitre : " + this.getNomMaitre() + "\nespcece : " + this.getEspece()
-				+ "\nrace : " + this.getRace();
+				+ "\nrace : " + this.getRace() + dossierDeSuivi.infosDossierSuivi();
 	}
 
 	@Override

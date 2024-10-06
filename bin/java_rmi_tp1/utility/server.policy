@@ -1,4 +1,4 @@
-// path/to/security.policy
+// server.policy
 grant {
 permission java.security.AllPermission;
 };
